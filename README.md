@@ -1,6 +1,6 @@
 # The Hikers
 
-![altthehikers](the-hikers-1.png)
+![altthehikers](assets/images/logo-the-hikers.png)
 
 The aim of this project was to create a website for the THE HICKERS group and help it to promote it on the market 
 
@@ -87,11 +87,11 @@ The main purpose of the structure is to enable users to quickly navigate through
 4. Skeleton
 
 ## Wireframe mockups:
-- [Home](wireframes/home-page-wireframe)
-- [About](wireframes/about-page-wireframe)
-- [Tours](wireframes/tours-page-wireframe)
-- [Gallery](wireframes/gallery-page-wireframe)
-- [Contact](wireframes/contact-page-wireframe)
+- [Home](assets/wireframes/home-page-wireframe)
+- [About](assets/wireframes/about-page-wireframe)
+- [Tours](assets/wireframes/tours-page-wireframe)
+- [Gallery](assets/wireframes/gallery-page-wireframe)
+- [Contact](assets/wireframes/contact-page-wireframe)
 
 - Pages/Section: Home, About Us, Tours, Gallery, Contact
 - Fixed navigation bar - Menu headings and pointing to each of the 5 Pages
@@ -202,6 +202,7 @@ This project has been deployed on GitHub Pages with the following process:
 ---
 
 ## Credits
+- Bootsrap code used for navbar
 
 **Media**
 
