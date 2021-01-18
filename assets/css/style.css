@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Yusei+Magic&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body {
+    font-family: 'Yusei Magic', sans-serif;     
+    font-size: 18px;
+    background-color: #dbe2d7;
+    color:white;
+    margin:0;
+}
+ h1,
+ h2,
+ h3 {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+/* ---------- NAVIGATION ---------- */
+.navbar {
+    background-color:#67ca2b99;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;  
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #dbe2d7;
+}
+
+.navbar-brand{
+    margin-right: 0px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: rgb(16 16 16 / 88%);
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover{
+    color:#dbe2d7;
+}
+

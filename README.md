@@ -1,6 +1,6 @@
 # The Hikers
 
-![altthehikers](assets/images/logo-the-hikers.png)
+![altthehikers](assets/images/logo.png)
 
 The aim of this project was to create a website for the THE HICKERS group and help it to promote it on the market 
 
@@ -43,7 +43,7 @@ A live demo can be found [here](#)
 3. As a potential client I want to know what thought of past clients who participated in the tours
 4. As a potential client I want  to view their offer and expected prices for each trip so I can deside which tour I would like to take
 5. As a interested client I want to understand the booking process of the tour
-6. As a viinterested observer and potential client I want to follow the group on social media and keep up with their upcoming tours.
+6. As a interested observer and potential client I want to follow the group on social media and keep up with their upcoming tours.
 
 ----
 ## UX
