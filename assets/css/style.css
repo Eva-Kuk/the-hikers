@@ -9,7 +9,7 @@
 body {
     
     font-family: 'Oswald', sans-serif;     
-    font-size: 16px;
+    font-size: 18px;
     background-color: #dbe2d7;
     color: rgb(16 16 16 / 88%);;
     margin:0;
@@ -17,7 +17,10 @@ body {
 
  h1 {
     font-family: 'Special Elite', cursive;
-    font-size: 18px;
+    font-size: 38px;
+ }
+ h2 {
+     font-size: 24px ;
  }
 
 /* ---------- NAVIGATION ---------- */
@@ -65,10 +68,13 @@ body {
 
 /* ---------- HERO IMAGE ---------- */
 /* ----- Credit: Form inspiration from CI Love Running mini-project -----*/
+
 #hero-image {
     height: 100vh;
     width: 100%;
-    background: url("../images/proba1.jpg") no-repeat center center;
+    /*----Credit: Photo by Lukas Medvedevas from Pexels----*/
+    background: url("../images/hero-image.jpg") no-repeat center center;
+    background-size: cover;
     
    
     animation-name: hero-image-zoom;
@@ -79,8 +85,8 @@ body {
 #hero-outer {
     height: 100vh;
     width: 100%;
-     /*clear:both; to moze byc zamiast overflow:hidden*/
-    clear: both;
+  
+    overflow:hidden;
     position: relative;
 }
 
@@ -128,11 +134,11 @@ body {
     font-weight: 300;
 }
 
+/*w3school customized lines*/
 .dotted-line {
     text-align: center;
 }
 
-/*w3school customized lines*/
 .dot {
   font-family: 'Special Elite', cursive;
   height: 5px;
@@ -142,10 +148,42 @@ body {
   border-radius: 50%;
   display: inline-block;
   letter-spacing: 10px;
-
 }
 
+/* ---------- About us---------- */
+.container {
+    clear: both;
+   
+}
+.heading-text {
+    clear: both;
+    height: 51px;
+    width: 100%;
+    background-color: #1e7e34;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #495057;
+    border-radius: 10px;
+}
+    
+ h1{
+    margin-top: 8px;
+    padding-top: 5px;
+    font-family: 'Special Elite', cursive;
+    font-size: 38px;
+    color: white;
+    vertical-align: middle;
+    letter-spacing: 3px;
+}
 
+.desc {
+    text-align: center;
+    
+}
+
+/* ---------- FOOTER---------- */
+/* ---------- FOOTER---------- */
+/* ---------- FOOTER---------- */
 
 
 /* ---------- FOOTER---------- */
@@ -155,8 +193,8 @@ footer {
 	bottom: 0px;
 	height: 4.5rem;
     background-color:#67ca2b99;
+    font-size: 1.5rem;
     color: #dbe2d7;
-    font-weight: 300;
 	display: flex;
 	    -webkit-box-align: center;
 	    -ms-flex-align: center;
@@ -168,19 +206,28 @@ footer {
 footer .contact {
 	width: 60%;
 	margin: auto 8px;
-    font-size: 1.5rem;
     font-weight: 300;
     color: rgb(16 16 16 / 88%);
-	align-items: center;	
+    align-items: center;
+    margin-bottom: 0px;	
 }
 
-.contact a {
+.contact-links li {
+    display: inline;
+
+}
+.contact-links i {
+    font-size:110%;
+    letter-spacing: 2px;
+
+}
+.contact-links a {
     color: rgb(16 16 16 / 88%);
     margin-right: 10px;
     padding-left: 13px;
   
 }
-.contact a:hover {
+.contact-links a:hover {
     color:#dbe2d7;
     text-decoration: none;
     margin-right: 10px;
@@ -188,7 +235,15 @@ footer .contact {
     margin-left: 10px;
 }
 
+.contact-links-item {
+    font-weight: 300;
+}
+
 .social-network {
+    font-size: 110%;
+    align-items: center;
+    width: 40%;
+	margin: auto 5%;
 	list-style: none;
 	    display: -webkit-box;
         display: -ms-flexbox;
@@ -198,19 +253,127 @@ footer .contact {
         -ms-flex-pack: space-around;
 	justify-content: space-around;
         -webkit-box-align: center;
-        -ms-flex-align: center;
-	align-items: center;
-	width: 40%;
-	margin: auto 5%;
+        -ms-flex-align: center;	
 }
 
 .social-network a {
-    font-size: 1.5rem;
-     color: rgb(16 16 16 / 88%);
+    color: rgb(16 16 16 / 88%);
 	margin: 5px;
 	padding: 5px;
 }
 
 .social-network i:hover{
-     color:#dbe2d7 ;
+     color:#dbe2d7;
+}
+
+
+
+
+/*
+
+@media screen and (max-width: 1024px) {
+   #cover-text {
+        font-size: 120%;
+        width: 455px;
+        height: 229px;
+        padding: 20px;
+        background-color: rgb(255 8 0 / 56%);
+        position: absolute;
+        bottom: 667px;
+        right: 78px;
+   }
+    #cover-text h2 {
+        font-size: 27px;
+        font-family: 'Special Elite', cursive;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 15px;
+        }
+
+    #cover-text h3 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 19px;
+        letter-spacing: 2px;
+        text-align: center;
+        font-weight: 300;
+        margin-top: 13px;
+    }
+}
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 1393px) {
+    #cover-text {
+        width
+    }
  }
+
+
+ @media screen and (max-width: 475px) {
+    #cover-text h2{ 
+        font-size: 16px;
+        margin-bottom: 5px;
+        margin-top: 4px;
+    }
+
+    #cover-text h3 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        text-align: center;
+        font-weight: 300;
+        margin-top: 6px;
+    }
+
+    #cover-text {
+        font-size: 58%;
+        width: 312px;
+        height: 166px;
+        padding: 20px;
+        background-color: rgba(255, 8, 0, 0.459);
+        position: absolute;
+        bottom: 455px;
+        right: 31px;
+    }
+}
+
+ @media screen and (max-width: 1024px) {
+     #cover-text h2 {
+        font-size: 35px;
+        font-family: 'Special Elite', cursive;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 15px;
+     }
+    #cover-text {
+        font-size: 120%;
+        width: 546px;
+        height: 240px;
+        padding: 20px;
+        background-color: rgba(255, 8, 0, 0.459);
+        position: absolute;
+        bottom: 673px;
+        right: 39px;
+    }
+    #cover-text h3 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 23px;
+        letter-spacing: 2px;
+        text-align: center;
+        font-weight: 300;
+        margin-top: 13px;
+    }
+    footer {
+        position: relative;
+    }
+}
+*/
